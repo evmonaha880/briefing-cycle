@@ -1,0 +1,139 @@
+/* Briefing Cycle — design tokens
+   Register: Anthropic-inflected, never Anthropic-marked (dossier §⑨ / §⑩ D-1, D-2).
+   Ground = warm paper. Ink = warm near-black, never #000. One clay accent.
+   Target Red appears ONLY on Target-side elements, on white. No marks of any kind. */
+
+:root {
+  --paper: #F0EEE6;
+  --card: #FAF9F5;
+  --ink: #141413;
+  --muted: #5E5D59;
+  --clay: #D97757;
+  --rust: #C6613F;
+  --target-red: #CC0000;
+  --hairline: #DDD9CE;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.measure { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+/* ---- framing guard band (D-4) ---- */
+.guard {
+  background: var(--card);
+  border-bottom: 1px solid var(--hairline);
+  font-size: 13.5px;
+  color: var(--muted);
+  padding: 10px 0;
+  text-align: center;
+}
+.guard strong { color: var(--ink); font-weight: 600; }
+
+/* ---- site nav ---- */
+nav.cycle {
+  display: flex; flex-wrap: wrap; gap: 4px 18px;
+  padding: 18px 0 6px;
+  font-size: 14px;
+}
+nav.cycle a { color: var(--muted); text-decoration: none; border-bottom: 2px solid transparent; padding-bottom: 2px; }
+nav.cycle a:hover { color: var(--rust); }
+nav.cycle a.here { color: var(--ink); border-bottom-color: var(--clay); font-weight: 600; }
+
+/* ---- typography ---- */
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; }
+h1 { font-size: 40px; margin: 36px 0 10px; }
+h2 { font-size: 26px; margin: 44px 0 12px; }
+h3 { font-size: 19px; margin: 28px 0 8px; }
+p { margin: 0 0 14px; }
+.kicker { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--clay); font-weight: 700; margin-top: 40px; }
+.dek { font-size: 20px; font-family: var(--serif); color: var(--muted); margin: 0 0 26px; line-height: 1.45; }
+a { color: var(--rust); }
+a:hover { color: var(--clay); }
+strong { font-weight: 650; }
+
+/* ---- cards & tables ---- */
+.card {
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 20px 22px;
+  margin: 18px 0;
+}
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 15px; }
+th { text-align: left; font-weight: 650; border-bottom: 2px solid var(--ink); padding: 8px 10px 6px; }
+td { border-bottom: 1px solid var(--hairline); padding: 8px 10px; vertical-align: top; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* ---- Target-side voice (D-2: red confined here, no Bullseye) ---- */
+.target-side { border-left: 3px solid var(--target-red); background: #FFFFFF; }
+.target-side .who { color: var(--target-red); font-weight: 700; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* ---- dual-lens: the machine underneath ---- */
+details.lens {
+  border: 1px solid var(--hairline);
+  border-left: 3px solid var(--clay);
+  border-radius: 4px;
+  background: var(--card);
+  margin: 16px 0;
+  font-size: 15px;
+}
+details.lens summary {
+  cursor: pointer; padding: 10px 16px; color: var(--rust);
+  font-weight: 600; list-style: none;
+}
+details.lens summary::before { content: '⌘ '; color: var(--clay); }
+details.lens .body { padding: 0 16px 14px; color: var(--muted); }
+
+/* ---- footnotes, flags, captions ---- */
+.fn { font-size: 13.5px; color: var(--muted); }
+sup a { text-decoration: none; font-size: 11px; }
+.flag { font-size: 13px; color: var(--muted); background: var(--card); border: 1px dashed var(--hairline); border-radius: 4px; padding: 2px 8px; white-space: nowrap; }
+figcaption { font-size: 13.5px; font-style: italic; color: var(--muted); margin-top: 6px; }
+
+/* ---- commitments table status chips ---- */
+.chip { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 3px; padding: 1px 8px; }
+.chip.open { background: var(--ink); color: var(--card); }
+.chip.dated { background: var(--clay); color: var(--card); }
+.chip.done { background: var(--muted); color: var(--card); }
+
+/* ---- footer ---- */
+footer {
+  margin-top: 72px; padding: 26px 0 40px;
+  border-top: 1px solid var(--hairline);
+  font-size: 13.5px; color: var(--muted);
+}
+footer .measure { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+/* ---- deck frames (delivery page) ---- */
+.slide {
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 34px 38px;
+  margin: 22px 0;
+  min-height: 280px;
+}
+.slide .slidekicker { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--clay); font-weight: 700; margin-bottom: 10px; }
+.slide h3 { font-size: 24px; margin: 0 0 12px; }
+.slide .foot { margin-top: 18px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--hairline); padding-top: 8px; }
+
+/* ---- time ledger ---- */
+.ledger td:first-child { font-weight: 600; }
+
+@media (max-width: 640px) {
+  h1 { font-size: 30px; }
+  .dek { font-size: 17px; }
+  body { font-size: 16px; }
+  .slide { padding: 22px 20px; }
+}
