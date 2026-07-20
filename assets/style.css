@@ -1,17 +1,17 @@
 /* Briefing Cycle — design tokens
-   Register: Anthropic-inflected, never Anthropic-marked (dossier §⑨ / §⑩ D-1, D-2).
-   Ground = warm paper. Ink = warm near-black, never #000. One clay accent.
+   Register: freight/manifest. Cool neutral ground, ink near-black (never #000),
+   one harbor steel-blue accent. Supply-chain-native, no third-party brand palette.
    Target Red appears ONLY on Target-side elements, on white. No marks of any kind. */
 
 :root {
-  --paper: #F0EEE6;
-  --card: #FAF9F5;
-  --ink: #141413;
-  --muted: #5E5D59;
-  --clay: #D97757;
-  --rust: #C6613F;
+  --paper: #F2F3F4;
+  --card: #FBFBFC;
+  --ink: #16191D;
+  --muted: #5B6068;
+  --accent: #2C5D7C;
+  --accent-deep: #1E425A;
   --target-red: #CC0000;
-  --hairline: #DDD9CE;
+  --hairline: #D5D9DE;
   --serif: Georgia, 'Times New Roman', serif;
   --sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -47,8 +47,8 @@ nav.cycle {
   font-size: 14px;
 }
 nav.cycle a { color: var(--muted); text-decoration: none; border-bottom: 2px solid transparent; padding-bottom: 2px; }
-nav.cycle a:hover { color: var(--rust); }
-nav.cycle a.here { color: var(--ink); border-bottom-color: var(--clay); font-weight: 600; }
+nav.cycle a:hover { color: var(--accent-deep); }
+nav.cycle a.here { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
 
 /* ---- typography ---- */
 h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; }
@@ -56,10 +56,10 @@ h1 { font-size: 40px; margin: 36px 0 10px; }
 h2 { font-size: 26px; margin: 44px 0 12px; }
 h3 { font-size: 19px; margin: 28px 0 8px; }
 p { margin: 0 0 14px; }
-.kicker { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--clay); font-weight: 700; margin-top: 40px; }
+.kicker { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-top: 40px; }
 .dek { font-size: 20px; font-family: var(--serif); color: var(--muted); margin: 0 0 26px; line-height: 1.45; }
-a { color: var(--rust); }
-a:hover { color: var(--clay); }
+a { color: var(--accent-deep); }
+a:hover { color: var(--accent); }
 strong { font-weight: 650; }
 
 /* ---- cards & tables ---- */
@@ -82,17 +82,17 @@ td { border-bottom: 1px solid var(--hairline); padding: 8px 10px; vertical-align
 /* ---- dual-lens: the machine underneath ---- */
 details.lens {
   border: 1px solid var(--hairline);
-  border-left: 3px solid var(--clay);
+  border-left: 3px solid var(--accent);
   border-radius: 4px;
   background: var(--card);
   margin: 16px 0;
   font-size: 15px;
 }
 details.lens summary {
-  cursor: pointer; padding: 10px 16px; color: var(--rust);
+  cursor: pointer; padding: 10px 16px; color: var(--accent-deep);
   font-weight: 600; list-style: none;
 }
-details.lens summary::before { content: '⌘ '; color: var(--clay); }
+details.lens summary::before { content: '⌘ '; color: var(--accent); }
 details.lens .body { padding: 0 16px 14px; color: var(--muted); }
 
 /* ---- footnotes, flags, captions ---- */
@@ -104,7 +104,7 @@ figcaption { font-size: 13.5px; font-style: italic; color: var(--muted); margin-
 /* ---- commitments table status chips ---- */
 .chip { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 3px; padding: 1px 8px; }
 .chip.open { background: var(--ink); color: var(--card); }
-.chip.dated { background: var(--clay); color: var(--card); }
+.chip.dated { background: var(--accent); color: var(--card); }
 .chip.done { background: var(--muted); color: var(--card); }
 
 /* ---- footer ---- */
@@ -124,7 +124,7 @@ footer .measure { display: flex; justify-content: space-between; flex-wrap: wrap
   margin: 22px 0;
   min-height: 280px;
 }
-.slide .slidekicker { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--clay); font-weight: 700; margin-bottom: 10px; }
+.slide .slidekicker { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 10px; }
 .slide h3 { font-size: 24px; margin: 0 0 12px; }
 .slide .foot { margin-top: 18px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--hairline); padding-top: 8px; }
 
@@ -136,4 +136,7 @@ footer .measure { display: flex; justify-content: space-between; flex-wrap: wrap
   .dek { font-size: 17px; }
   body { font-size: 16px; }
   .slide { padding: 22px 20px; }
+  /* wide tables scroll within their own box, never push the page wide */
+  table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .flag { white-space: normal; }
 }
