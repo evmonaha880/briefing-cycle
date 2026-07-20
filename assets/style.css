@@ -140,3 +140,62 @@ footer .measure { display: flex; justify-content: space-between; flex-wrap: wrap
   table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .flag { white-space: normal; }
 }
+
+/* ============================================================
+   Visual objects (Ship-It Loop v2 · visual pass)
+   All theme off the existing :root vars — no new palette.
+   ============================================================ */
+
+/* -- Cycle timeline: a segmented phase spine, the Room as pivot -- */
+.cyc-timeline { display:flex; gap:3px; margin:14px 0 4px; align-items:stretch; }
+.cyc-timeline .seg {
+  flex:1; background:var(--card); border:1px solid var(--hairline);
+  border-radius:5px; padding:11px 9px; text-align:center;
+  display:flex; flex-direction:column; justify-content:center;
+}
+.cyc-timeline .seg.pivot { flex:0 0 auto; background:var(--accent); border-color:var(--accent); padding:11px 15px; }
+.cyc-timeline .seg .n { font-size:12.5px; font-weight:700; letter-spacing:.01em; color:var(--ink); }
+.cyc-timeline .seg .c { font-size:10.5px; color:var(--muted); margin-top:4px; font-variant-numeric:tabular-nums; }
+.cyc-timeline .seg.pivot .n { color:#fff; }
+.cyc-timeline .seg.pivot .c { color:rgba(255,255,255,.82); }
+.cyc-cap { font-size:12.5px; color:var(--muted); margin:2px 0 0; }
+@media (max-width:620px){
+  .cyc-timeline { flex-direction:column; gap:4px; }
+  .cyc-timeline .seg, .cyc-timeline .seg.pivot { flex:1 1 auto; text-align:left; flex-direction:row; justify-content:space-between; }
+}
+
+/* -- From→to seat map: each seat is a state transition, the move is the point -- */
+.fromto { margin:14px 0 2px; }
+.fromto .seat { padding:13px 0; border-bottom:1px solid var(--hairline); }
+.fromto .seat:last-child { border-bottom:0; }
+.fromto .role { font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--ink); margin-bottom:7px; }
+.fromto .move { display:grid; grid-template-columns:1fr 26px 1fr; gap:10px; align-items:center; }
+.fromto .from { color:var(--muted); font-size:14.5px; line-height:1.4; }
+.fromto .to { color:var(--ink); font-size:14.5px; line-height:1.4; font-weight:500; }
+.fromto .arr { color:var(--accent); font-size:20px; font-weight:700; text-align:center; line-height:1; }
+@media (max-width:620px){
+  .fromto .move { grid-template-columns:1fr; gap:5px; }
+  .fromto .arr { text-align:left; transform:rotate(90deg); width:20px; }
+}
+
+/* -- Staircase: four ascending rungs, the destination rung in accent -- */
+.staircase { display:flex; align-items:flex-end; gap:6px; margin:16px 0 6px; }
+.staircase .rung {
+  flex:1; background:var(--card); border:1px solid var(--hairline);
+  border-bottom:3px solid var(--muted); border-radius:5px 5px 0 0; padding:12px 11px;
+}
+.staircase .rung.r1 { min-height:104px; }
+.staircase .rung.r2 { min-height:132px; }
+.staircase .rung.r3 { min-height:160px; }
+.staircase .rung.r4 { min-height:188px; background:var(--accent); border-color:var(--accent); border-bottom-color:var(--accent-deep); }
+.staircase .rn { font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; font-weight:700; color:var(--muted); }
+.staircase .rt { font-size:14px; font-weight:600; margin-top:5px; color:var(--ink); line-height:1.25; }
+.staircase .rp { font-size:12px; color:var(--muted); margin-top:6px; line-height:1.35; }
+.staircase .rung.r4 .rn { color:rgba(255,255,255,.8); }
+.staircase .rung.r4 .rt { color:#fff; }
+.staircase .rung.r4 .rp { color:rgba(255,255,255,.9); }
+@media (max-width:620px){
+  .staircase { flex-direction:column; align-items:stretch; }
+  .staircase .rung, .staircase .rung.r1, .staircase .rung.r2, .staircase .rung.r3, .staircase .rung.r4 { min-height:0; border-bottom-width:1px; border-left:4px solid var(--muted); border-radius:0 5px 5px 0; }
+  .staircase .rung.r4 { border-left-color:var(--accent-deep); }
+}
