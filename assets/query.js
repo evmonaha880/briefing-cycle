@@ -1,4 +1,4 @@
-/* Query the record — keyless, client-side search over record.json.
+/* Search the record — keyless, client-side search over record.json.
    No API key, no backend, no external deps. Every result links to the
    source line it came from. Fail-safe: if anything errors, the static
    link table below stays as the fallback (this box just hides itself). */
@@ -88,7 +88,7 @@
 
   function build(){
     mount.innerHTML =
-      "<p class='rq-hint'>Ask the record a question, or search a term. Answers link to the exact line they came from — it reads the same content you can browse below.</p>"+
+      "<p class='rq-hint'>Search the record; results show the matching line and link to its section.</p>"+
       "<div class='rq-box'><input id='rq-input' type='search' autocomplete='off' "+
         "placeholder='e.g. how was discovery verified?' aria-label='Search the record'></div>"+
       "<div class='rq-sugg' id='rq-sugg'></div>"+
