@@ -1,0 +1,348 @@
+{
+ "generated": "static index of the briefing-cycle record",
+ "entries": [
+  {
+   "page": "index.html",
+   "phase": "Overview",
+   "heading": "One executive briefing cycle, run end to end",
+   "anchor": "",
+   "text": "This site is the queryable record of a complete briefing cycle: intake, discovery, agenda, the room, and the follow-through. It was built as a working sample for a hypothetical engagement with Target, by one person and Claude, from public information only. Records open on outcomes, so this one does too."
+  },
+  {
+   "page": "index.html",
+   "phase": "Overview",
+   "heading": "What the customer left with",
+   "anchor": "",
+   "text": "Commitment Owner (role) Clock Pilot 1: demand-forecast & in-stock assist, scored on in-stock availability and inventory-turn trendline in named categories Supply-chain organization, exec sponsor Charter signed by Day 30 dated Pilot 2: import & tariff planning agent, human on the decisions, agent on the assembly Sourcing / merchandising operations Scoping workshop Day 21 dated Pilot 3: back-office operations automation, the unglamorous-by-design fastest lane Finance & administration function Scope agreed by Day 60 dated Executive-sponsor cadence: three-bullet check-ins Named host-side executive sponsor Day 30 · 60 · 90 dated Graduation criteria for every pilot, written before any pilot starts Briefing program + pilot sponsors Inside each charter standing This record: every artifact of the cycle, centralized and queryable Briefing program manager T+1, ~30 minutes done In a live cycle this table carries names and calendar dates. Roles stand in here. This is a sample, and inventing Target attendees would cross a line the rest of the site is built to respect."
+  },
+  {
+   "page": "index.html",
+   "phase": "Overview",
+   "heading": "The cycle, phase by phase",
+   "anchor": "",
+   "text": "Phase What it produces Clock 1 · Intake A request, a qualification decision against a stated bar, an aligned account team T−30 → T−25 2 · Discovery The research form, a synthesis that states its confidence levels, a from→to line for every seat in the room T−25 → T−10 3 · Agenda design Seven sessions titled by the customer's problems, every leader prepped, the day pre-decided T−10 → T−2 4 · The room Demos and working walls; the nine-page document that travels; commitments read aloud before close T 5 · Follow-through The close-out package, the ladder, the 30/60/90, the measurement system, and this record T+1 → T+90"
+  },
+  {
+   "page": "index.html",
+   "phase": "Overview",
+   "heading": "Query the record",
+   "anchor": "",
+   "text": "Or browse everything, one click deep: The briefing request & qualification decision Why this customer, why now, against what bar The discovery synthesis What we'd bet and at what odds, bear case included, single-source claims flagged The questions held for the room What public record can't answer, and why each question is load-bearing The agenda & run-of-show discipline Session titles that read as their situation; the catalog stays out of them The briefing document Nine pages, written to be forwarded, every number footnoted The follow-through machine Close-out, ladder, 30/60/90: the part most programs skip The measurement system Influenced pipeline, instrumented at intake; folklore labeled as folklore The source register Every claim, linked; corrections applied in the text"
+  },
+  {
+   "page": "index.html",
+   "phase": "Overview",
+   "heading": "The ledger: what each phase actually cost",
+   "anchor": "ledger",
+   "text": "This cycle was produced by one person with Claude as the working team. The split below was estimated as the work happened. It is also the honest pitch for what an AI-native briefing program is: the machine compresses the gathering; the human owns the judgment. Phase Machine time Human time Discovery research + adversarial verification (12 parallel research lanes; every headline claim checked, 9 corrected, 3 flagged) 62 min — Discovery synthesis, judgment calls, and cycle design — ~2 hr Instruments: intake, discovery form, agenda, briefing document, follow-through ~1 hr drafting ~2.5 hr shaping & cutting This record (the site itself) included above ~1 hr A conventional analyst team quotes discovery of this depth in weeks. The machine's 62 minutes did not remove the human hours. It removed the weeks between them."
+  },
+  {
+   "page": "index.html",
+   "phase": "Overview",
+   "heading": "What a live cycle has that this sample can't",
+   "anchor": "",
+   "text": "Honesty about the ceiling: a real cycle runs on account-team intelligence, the customer's own data and answers, and an actual room with actual reactions, none of which public record can supply. The discovery here is real research with real verification, but the commitments are a design. No deal sits behind them. Run #2 changes two things this sample only gestures at: the discovery form goes to a real customer, and the measurement system starts producing a number someone has to defend. That is the point at which this stops being a sample and starts being a program. Built July 2026. The subject was chosen for the quality of its public record: a Fortune-50 retailer, five months into a new-CEO turnaround, with technology named as a top-three priority and budget attached — the textbook profile of an executive-briefing customer."
+  },
+  {
+   "page": "1-intake.html",
+   "phase": "Intake",
+   "heading": "A briefing is rationed, not booked",
+   "anchor": "",
+   "text": "The cycle opens with a request, a qualification decision against a stated bar, and an account-team alignment call. Duration: request to go/no-go, 2 business days."
+  },
+  {
+   "page": "1-intake.html",
+   "phase": "Intake",
+   "heading": "The briefing request",
+   "anchor": "",
+   "text": "Requested by Global Account Director, Retail (the account team owns the request channel; the program holds the bar) Account Target Corporation: Fortune-50 retailer, ~$105B net sales, ~440,000 team members, 2,000+ stores 1 Stage in evaluation Early architecture & partner selection. The CEO has named technology his third priority with an ongoing budget step-up \"including AI\"; no enterprise AI architecture has been publicly committed 2 Executive attendees (role titles; see note) Chief Operating Officer · Chief Global Supply Chain & Logistics Officer · Chief Information Officer function · SVP Merchandising Operations · VP Enterprise Strategy Requested window Within 45 days, ahead of holiday-season planning lock Attendees are stated as role titles only. Where this cycle cites Target executives (Fiddelke, Roath, England), it cites their public statements only — all three are on the record in the company's 2026 disclosures. 3"
+  },
+  {
+   "page": "1-intake.html",
+   "phase": "Intake",
+   "heading": "The gap that qualifies the briefing",
+   "anchor": "",
+   "text": "A briefing is not a meeting. It qualifies when the customer holds a stated gap between an undesired result they have named and a desired result they are funding, and when the people who own that gap will be in the room. The undesired result, in Target's own words \"Product findability and in-stock availability remain the biggest friction points for our guests\" — the Chief Operating Officer, on the most recent earnings call. 3 The CEO's own grade: \"we still haven't arrived.\" 2 Behind it: demand-forecast volatility the company says it is \"working to use AI to improve.\" 3 The desired result: funded, on the record \"Accelerating technology\" is the CEO's stated priority #3, backed by a $1B ongoing P&L step-up that explicitly includes \"technology, including AI\" (\"not one-time costs\") on top of ~$5B capital expenditure. 2 A new Chief Global Supply Chain & Logistics Officer was hired with a public mandate for \"step function change.\" 3 The gap between those two paragraphs is the briefing's reason to exist. Everything downstream (discovery, agenda, the room, the follow-through) exists to close it by one committed step."
+  },
+  {
+   "page": "1-intake.html",
+   "phase": "Intake",
+   "heading": "Qualification decision",
+   "anchor": "",
+   "text": "Bar Evidence Met Multi-executive audience with decision authority First-year COO and supply-chain chief, both with fresh public mandates ✓ Stated gap, funded Named friction + named budget (above) ✓ Timing serves the account's most important opportunity Architecture selection window, pre-holiday planning ✓ Strategic-account coverage value Fortune-50 retail logo; proactive-surface profile (new CEO, allocated budget, no committed architecture) ✓ Decision: qualified. Declined requests get a smaller intervention: a working session with the account team. The bar is what makes the briefing worth an executive's day."
+  },
+  {
+   "page": "1-intake.html",
+   "phase": "Intake",
+   "heading": "The alignment call",
+   "anchor": "",
+   "text": "Before any content exists, a 30-minute call with the account team captures three things, each with a done-condition: Captured Done when Who is attending: every seat, seniority, and function Attendee roster confirmed in writing by the account team What each attendee needs: their objectives, in their terms A move-from → move-to line exists per attendee (see Discovery) The strategic priorities they execute: the company agenda each attendee carries Each objective mapped to a stated corporate priority, with a source Under the hood: how this phase was actually produced In a live cycle, the request form arrives from the account team and the qualification note is drafted against their account plan. In this sample, Claude assembled the request profile and the gap statement from Target's public record (the 10-K, two earnings-call transcripts, and the March 2026 investor meeting) in a single research pass, and the program manager's job was judgment: which of five candidate gaps was load-bearing enough to carry a briefing. Time on this phase: see the ledger."
+  },
+  {
+   "page": "1-intake.html",
+   "phase": "Intake",
+   "heading": "Phase clocks",
+   "anchor": "",
+   "text": "Request received T−30 days Qualification decision issued T−28 Alignment call held, trinity captured T−26 Discovery instruments out the door T−25 T = briefing day. Every phase publishes its clock; the cycle's velocity is a reported number. Next: Phase 2 · Discovery →"
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "Learn their reality before selling a vision",
+   "anchor": "",
+   "text": "Discovery runs in both directions: the host learns the customer's current state; the customer learns what an honest partner looks like. Current reality first, future vision only after. Duration: 11 days, form to synthesis."
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "The customer research form: what we know, and how well we know it",
+   "anchor": "",
+   "text": "Every line below carries a source and, where it matters, a confidence marker. Certainty here is a prediction of being right. The synthesis says what we'd bet, and at what odds."
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "Where the business stands",
+   "anchor": "",
+   "text": "Fact Figure Source FY2025 net sales (third consecutive annual decline) $104.78B, −1.7% 10-K FY2025 comparable sales: traffic-led decline −2.6% (traffic −2.2%) 10-K Q1 2026 comps: first positive in five quarters +5.6% (traffic +4.4%) Q1 release FY2026 guidance, raised after Q1 ~4% sales growth; EPS near high end of $7.50–$8.50 Q1 release Adjusted operating margin, FY2025 (vs ~6% in stronger years) 4.6% Q4 release Stores fulfill share of total merchandise sales >97% 10-K Inventory, clean going into the turnaround year; turns $12.3B; turns +>10% YoY Q1 call"
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "The strategy frame the room will carry",
+   "anchor": "",
+   "text": "Their agenda, verbatim-consistent across four public checkpoints Four priorities: merchandising authority · guest experience · accelerating technology · team and communities. 4 The CEO on the money behind #3: \"It's a place where we need to lean in even more going forward, and we will. We're putting real investment behind it.\" 2 And on pace: \"A single good quarter has never been our goal. Our goal is consistent long-term growth.\" 5"
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "Operational pain, ranked by evidence",
+   "anchor": "",
+   "text": "Pain Evidence class In-stocks / product findability: \"the biggest friction points for our guests\" (COO); worst in food, evenings and weekends Named by executives, unresolved 3 Demand-forecast volatility: the company is \"working to use AI to improve our demand forecasting\" Named workstream, in flight 3 Institutional memory: the 2022 glut. Inventory peaked $15.1B (+43% YoY); one quarter later operating income fell 87% SEC-filed history 6 Import & tariff churn: importer of record on roughly half of merchandise; own-brand China sourcing cut 60%→~30%, targeting <25% by end-2026; ~$0.5B one-time tariff and inventory costs absorbed in FY2025 10-K + executive statements 7 Fulfillment speed vs. cost: stores-as-hubs is asset-light but caps speed; the Chicago consolidation test cut a near-full day and lowered unit cost; the 2023 goal of 15+ sortation centers sits at 11 Company-published + inference flagged 8"
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "Their AI posture: meet them where they are",
+   "anchor": "",
+   "text": "Target is past \"why AI.\" The company claims an AI personalization engine \"generates billions of dollars in incremental sales\" ⚠️ company claim, unverified, 2 claims early moves in GenAI shoppable experiences with \"big tech partners,\" 2 and its CEO is publicly reasoning about agentic commerce: \"the consumer purchase funnel is going to transform. AI is certainly going to play a role.\" 2 What has not been publicly committed: an enterprise AI architecture, a model partner, or an agent strategy for operations."
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "The synthesis: what we would bet, at what odds",
+   "anchor": "",
+   "text": "1. The inflection is real; its attribution is not settled. Q1's +5.6% was traffic-led and broad-based, but the guide implies roughly 1% comps for the rest of the year, and the two-year stack (+3.7% vs 2024) says lost ground is not yet recaptured. We'd put it at roughly 60/40 that the majority of the inflection is strategy-driven rather than tax-refund timing, an easy lap, and boycott-lapping. The tell to watch is Q2, the year's hardest comparison. 3 2. The durability question is the CEO's own question. The stock fell ~4% on a beat-and-raise day; one bank's channel checks show traffic up while purchase intent deteriorates ⚠️ attributed to TheStreet's account of the Goldman note. 9 Management is not disputing the premise: \"a single good quarter has never been our goal\" concedes it. 3. The readiness picture is unusually good, with one asterisk. Fourteen months of removing layers, a standing acceleration office, and three first-year executives with fresh mandates mean the change program precedes the AI program: rare, and load-bearing for adoption. The asterisk: master-data quality is unproven in public record, and this company has lived what bad data does to automation (Canada, 2013: enterprise-system data ~30% accurate broke replenishment end-to-end ⚠️ single-source, Castaldo). 10"
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "Every seat in the room: from → to",
+   "anchor": "",
+   "text": "Attendee (role) Arrives believing / doing Should leave believing / doing Chief Operating Officer AI is a forecasting workstream inside supply chain Agentic AI is an operating-model lever across ops; owns pilot #1's success criteria Chief Global Supply Chain & Logistics Officer New in seat; mandate is \"step function change\"; evaluating levers Sees the demand-forecast pilot as the fastest step-function receipt; sponsors it Chief Information Officer function Guarding a legacy-modernization roadmap against distraction Sees a governed pilot lane that strengthens the modernization roadmap SVP Merchandising Operations AI = personalization and content tooling Sees the vendor/QA workflow rung as merchandising's entry point VP Enterprise Strategy Needs the durability story for the Street Leaves with structural levers that read as durable"
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "The questions public record can't answer, held for the room",
+   "anchor": "craft",
+   "text": "A public-record discovery has a ceiling, and pretending otherwise would poison the synthesis. These are the questions a live discovery asks the customer directly. Each one earns its place because the answer changes the agenda: Question Why it's load-bearing \"What is the actual challenge here, named — distinct from the performance result it's causing?\" Comps are the result. The obstacle behind them decides which pilot goes first. 24 \"Which two or three factors drive most of the in-stock variance?\" Shrinks the forecast pilot from the whole ocean down to its two or three real drivers. 24 \"Who inside the network is already beating this problem with the same resources?\" The Chicago fulfillment test suggests the answer exists: positive deviance beats prescription, and diffusion beats deployment. 24 \"Where is AI already being used unofficially — and what would make it safe for people to say so?\" Hidden AI use is the norm inside enterprises; surfacing it is the cheapest discovery any AI program will ever run. 24 \"What did the last transformation that didn't stick teach the people you'll need this time?\" Unspoken doubts are the first thing to undermine adoption; named ones become design inputs. 24 \"What do you want from us, specifically — not from the pilots?\" Separates the outcome from the relationship; mis-scoped expectations kill more programs than mis-scoped pilots. 24"
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "What Target learns about us in the same phase",
+   "anchor": "",
+   "text": "Discovery is mutual or it is surveillance. In the same window, the customer receives: how we run AI on our own operations (the customer-zero session they will get in the room), our data-handling posture in writing before anyone asks, and this cycle's own instruments, so they can judge the machine by its parts before committing a day of executive time to it. Under the hood: how this phase was actually produced The research form above was compiled by Claude from primary filings and call transcripts in one overnight pass: twelve parallel research lanes, each claim then adversarially re-verified against an independent second source before it was allowed on this page (9 claims were corrected in that pass; 3 that couldn't be confirmed are flagged where they stand). The synthesis judgments (the 60/40, the asterisk, what's load-bearing) are the human's. That division of labor is the point: the machine does the gathering and checking at a speed no analyst team matches; the judgment about what it means stays owned. In a live cycle, the same pass runs on account-team intel plus the customer's own inputs, and it finishes in hours."
+  },
+  {
+   "page": "2-discovery.html",
+   "phase": "Discovery",
+   "heading": "Phase clocks",
+   "anchor": "",
+   "text": "Research form returned T−14 days Synthesis one-pager issued to briefing team T−12 Attendee from→to map confirmed with account team T−10 Next: Phase 3 · Agenda design →"
+  },
+  {
+   "page": "3-agenda.html",
+   "phase": "Agenda",
+   "heading": "The customer's problems set the agenda.",
+   "anchor": "",
+   "text": "Read the session titles alone: they should describe Target's situation, never a product catalog. One intent statement aligns the briefing team; every logistical decision is made before the day so the room gets full presence."
+  },
+  {
+   "page": "3-agenda.html",
+   "phase": "Agenda",
+   "heading": "The intent, in one sentence",
+   "anchor": "",
+   "text": "Every session moves one named Target problem toward one committed next step. Any block that doesn't serve that gets cut. This is the sentence every session leader plans against. It survives contact with the day when the run-of-show doesn't."
+  },
+  {
+   "page": "3-agenda.html",
+   "phase": "Agenda",
+   "heading": "The day",
+   "anchor": "",
+   "text": "Session Led by (role) The non-slide element 1 · Where the turnaround actually stands The mirror: their inflection, their durability question, the bear case included Briefing lead Working wall of Target's own numbers; attendees rank the five friction points before we say a word 2 · The purchase funnel is transforming without asking permission Agentic commerce and what competitors already run in production Industry lead, retail Live demo: a shopping agent traversing surfaces the guest already uses 3 · How we run our own company on this Customer zero: our teams, on our product, on real work, including where it fails An operations leader who uses the product daily Live, unstaged look at actual internal workflows 4 · Forecasting, in-stocks, and the memory of 2022 The named pain: demand volatility, availability, and what data readiness demands first Solutions architect, supply chain Working session: a live agent on Target's public demand signals, execs steering 5 · A staircase for retail operations From back-office augmentation to supply-chain orchestration: one rung at a time, with named proof at each rung Enterprise architect Attendees place their own functions on the staircase 6 · Getting 440,000 people to work differently Change that spreads by adoption: surfacing the AI use already hidden in the building, and what it costs to make disclosure safe Adoption & enablement lead Roundtable: attendees bring their hardest \"my team won't change\" case 7 · What we commit to before we leave The action plan, drafted in the room, owners and dates attached in front of everyone Briefing lead + account executive The commitments table built live on the wall, nothing \"sent later\" Two design rules did the real work here. First: session 4 exists because discovery said in-stocks is their stated pain. That forecasting demos well had no vote. Second: the change-management session is framed bottom-up. The recurring executive question in any briefing is \"how do I get my people to change how they're working?\" The honest answer is adoption: teams pick tools up because the tools help, and no mandate produces that. Hidden AI use is already widespread inside large enterprises, and the levers that surface it are credible commitments and visible incentives. 24 Target walks in with an unusual advantage: fourteen months of organizational simplification mean the change program has already run ahead of the AI program. 11 One provocation is reserved for session 5, and it's the day's sharpest question: is this an operating-model commitment, or a portfolio of pilots? 24"
+  },
+  {
+   "page": "3-agenda.html",
+   "phase": "Agenda",
+   "heading": "Every leader is prepped, every detail pre-decided",
+   "anchor": "",
+   "text": "Mechanism Done when Leader prep call: each session leader gets the discovery synthesis, their session's from→to purpose, and thirty minutes of challenge All seven held by T−5 The day, pre-decided: room, seating, timing, materials, demo fallbacks, who greets, who scribes, who owns the wall Run-of-show frozen T−2; zero logistics decided on the day Materials freeze: the deck and handouts lock; late-breaking news gets a verbal note T−2 Performance days are for performing. Every decision made before the day is attention returned to the room. Under the hood — how this phase was actually produced Claude generated three candidate agenda architectures from the discovery synthesis (problem-ordered, capability-ordered, and stakeholder-ordered) with per-session from→to lines; the human picked problem-ordered, cut two blocks that failed the intent sentence, and wrote the immersion elements. Leader prep briefs are generated per session from the same synthesis; in a live cycle each leader gets theirs the same hour the agenda locks. Time on this phase: see the ledger."
+  },
+  {
+   "page": "3-agenda.html",
+   "phase": "Agenda",
+   "heading": "Phase clocks",
+   "anchor": "",
+   "text": "Candidate agendas reviewed, one selected T−9 days Agenda locked with account team T−7 All seven leader prep calls held T−5 Run-of-show + materials frozen T−2 Next: Phase 4 · The room →"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "The room runs on demos and walls. The deck is what travels.",
+   "anchor": "",
+   "text": "In the room, capture is a live duty: action items are noted between sessions, in front of the customer, and recapped at close: commitments made aloud are commitments kept. What follows is the briefing document itself, written to be read and forwarded; it travels without a presenter."
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "The briefing document",
+   "anchor": "",
+   "text": "Nine pages. Every chart title states an observation. Every number footnoted; the two flagged claims carry their flags into the page. The point, first"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "Target has spent 14 months rebuilding itself for speed. The next constraint is informational. It is addressable within this fiscal year.",
+   "anchor": "",
+   "text": "The acceleration office, the flattened organization, and three first-year executives removed the structural friction. What remains is the friction inside the work itself: forecasts that wobble, availability that disappoints on weekend evenings, sourcing decisions re-made monthly under tariff churn, and thousands of back-office hours that go to assembling context before any deciding can start. That is the class of friction agentic AI removes, and the readiness work is already done. Framing built entirely from Target's public record; sources on each page following. Act I · The mirror"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "The inflection is real. Durability is the open question. Your CEO says so himself.",
+   "anchor": "",
+   "text": "Q1 2026: comps +5.6%, traffic-led, broad-based; guidance raised to ~4%. And yet: shares fell ~4% on the beat, the guide implies ~1% comps for the remaining year, the two-year stack sits at +3.7%, and Q2 laps the year's hardest comparison. \"A single good quarter has never been our goal. Our goal is consistent long-term growth.\" Read plainly: momentum has been bought with merchandising newness and price moves. Durability requires structural levers, and the executive team's public language says it knows. Q1 2026 release + call transcript; Retail Dive (verified CEO wording); market reaction per CNBC. Full citations: sources 3, 5. Act I · The named pain"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "In-stocks are your stated #1 guest friction. 2022 is why forecasting is a board-level nerve.",
+   "anchor": "",
+   "text": "The COO's words: \"product findability and in-stock availability remain the biggest friction points for our guests.\" The CEO's grade: \"we still haven't arrived.\" The memory underneath is 2022, when inventory peaked at $15.1B (+43% YoY) and one quarter later operating income fell 87%. That was the costliest forecasting miss in the company's modern history. The 2026 counter-evidence is real (turns +10%, cleaner inventory), and the company is now chasing inventory into raised guidance under record-low consumer sentiment. It is the 2022 setup, in reverse. Q1 2026 transcript (including the consumer-sentiment discussion in the call's Q&A); SEC-filed 2022 exhibits. Sources 3, 6. Act II · The clock"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "The competitive set is already deploying. The gap is deployment muscle, not model access.",
+   "anchor": "",
+   "text": "Walmart runs a customer-facing agent in production in its app, reports ~900,000 associates on conversational AI tools (~3M questions weekly), embedded its agent into ChatGPT and Gemini after a first partnership underperformed, and framed its own CEO succession around AI. Amazon's shopping agent reached 300M+ customers with nearly $12B in annualized incremental sales attributed during 2025. The counter-beat: Costco and TJX are taking share from Target with no AI narrative at all. 25 AI is a lever, not a religion, which is exactly why the useful question is which architecture, which partner, which use cases first. Walmart July 2025 announcement + FY26 reporting (at announcement, one of four agents was fully live); Walmart CEO succession per the SEC-filed announcement; Amazon Q4 2025 full-year figures; share arithmetic per GlobalData via CNBC. Sources 12–13, 25. Act II · The task evidence"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "Measured across millions of real AI conversations: the fastest-growing lane is exactly the work your back office does.",
+   "anchor": "",
+   "text": "From Anthropic's Economic Index, task-level findings across real usage: office and administrative support tasks rose three percentage points in a single quarter to 13% of first-party API transcripts (\"businesses are increasingly using Claude to automate routine back-office workflows\"); 93% of conversations produce a concrete artifact: a document, a report, a plan. And the whitespace cuts the other way: frontline and physical work remain the least AI-exposed occupations, meaning the first wave lands in the back office, merchandising ops, and planning, well before it reaches the store floor. One more finding, offered with its own caveat attached: the Index's baseline implies ~1.8 points of annual labor-productivity growth over the next decade, roughly halved to ~1.0 once task reliability is priced in. The number and its haircut travel together. Anthropic Economic Index, Jan + Jun 2026 reports: occupation/task-level patterns; the industry application is this briefing's own synthesis. Source 14. Act III · The staircase"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "A staircase for retail operations: one rung at a time, named proof at each rung.",
+   "anchor": "",
+   "text": "Rung 1 · task augmentation, back office: documents, vendor correspondence, compliance drafting. Proof class: the task-level usage data on the previous page — the back-office lane is measurably where enterprise AI work is growing fastest. Rung 2 · workflow agents, merch & vendor ops: supplier QA, certification checks, launch documentation. Proof: Lotte Homeshopping's 24/7 partner-support agent, corroborated by two platforms. Rung 3 · analytics orchestration: L'Oréal runs Claude as the orchestrator of 15+ specialized agents; 44,000 monthly users on conversational analytics, 99% accuracy ⚠️ vendor-published figures. Rung 4 · supply-chain orchestration: demand sensing, allocation, import planning; the rung this briefing's pilots point at, reached by climbing the rungs below it. The same climb is underway at the customer edge — Shopify's merchant assistant runs on the same model family ⚠️ vendor-published — but this briefing's staircase is the operational one, because that is where Target's named pains live. Anthropic retail guide + customer pages; Lotte corroborated by Sendbird and AWS. Source 15. Act III · Trust, demonstrated"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "You have lived what third-party access failure costs. Your AI partner should be chosen like it matters.",
+   "anchor": "",
+   "text": "Target's 2013 breach entered through a vendor's stolen credentials and ended in a settlement with 47 states and D.C., and executive departures. The company rebuilt its security posture from that wound. That history is why a briefing about customer-adjacent AI leads with the governance facts, the material usually saved for legal review: enterprise data is not used for model training by default; SOC 2 and ISO-class certifications; and a partner whose stated posture is remaining \"unconflicted\": no advertising business pulling the model toward anything but the work. Breach history: public settlements record. Product terms: Claude Enterprise page. Positioning: CCO public statements, Feb 2026. Sources 16–17. Act IV · The commitments"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "Three pilots, sequenced: each scored on numbers Target already reports.",
+   "anchor": "",
+   "text": "Pilot 1 · Demand-forecast & in-stock assist (supply chain). Sponsor: the supply-chain organization, whose new chief carries a public \"step function change\" mandate. Success criteria drawn from Target's own scoreboard: in-stock availability in named categories and dayparts, inventory-turn trendline. Pilot 2 · Import & tariff planning agent (sourcing). The company is importer of record on roughly half its merchandise, mid-glide from 60% to under 25% own-brand China sourcing, with ~$0.5B of one-time tariff costs absorbed last year: a planning workload built for an agent with a human on the decisions. Pilot 3 · Back-office operations automation. The Index-backed fastest lane; unglamorous by design: \"the fastest ROI often comes from operational workflows,\" in the retail guide's own words. Each pilot carries a charter: scope contained enough to deliver quickly, an enthusiastic named sponsor, clear data availability, and graduation criteria written on day one, so no pilot can succeed quietly and go nowhere. Two disciplines govern the sequence. Plan slow, deliver fast: the pilot is the cheap, reversible simulation; the expensive window is production, so pilots exist to make the production run short. And each pilot is chosen as a repeatable module in a self-referencing niche: one team whose results the adjacent teams can't dismiss, because that adjacency is the mechanism by which value spreads; no mandate required. 24 Pilot filter and graduation-criteria language: Anthropic's published enterprise playbook. Scoreboard: Target FY2026 guidance + stated operational metrics. Sources 2, 18. After the room"
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "The briefing ends. The cycle doesn't.",
+   "anchor": "",
+   "text": "Within days: the action plan with owners and dates, in customer-benefit language. Within a month: the first sponsor check-in and a signed pilot charter. Within ninety days: an executive review against the graduation criteria, and a record of the whole cycle that anyone on either side can query without asking. That machinery is Phase 5, and it is the part most programs skip. Follow-through design: this cycle's own instruments, grounded in published practice and cited there."
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "Facilitation duties in the room",
+   "anchor": "",
+   "text": "Duty Mechanic Live capture A named scribe; action items surfaced and read back between sessions, while the room can still correct them Debrief beats Two-minute close on each session: what landed, what got challenged, what moved to the commitments wall The recap Final session reads the commitments table aloud (owner, date, definition of done) before anyone leaves Under the hood — how this phase was actually produced The nine-page document above was drafted by Claude from the discovery synthesis and the agenda's from→to lines, then rewritten by the human for register and cut by a third. Charts and demo builds that would require non-public data are omitted from this sample and noted as omissions; nothing is faked. In a live cycle the same drafting pass produces speaker notes per session leader and a tailored exec pre-read, from the same source material, in the same afternoon."
+  },
+  {
+   "page": "4-delivery.html",
+   "phase": "The room",
+   "heading": "Phase clocks",
+   "anchor": "",
+   "text": "Briefing day T Commitments table read back and photographed T, before close Same-day capture into the record T + 0 Next: Phase 5 · Follow-through →"
+  },
+  {
+   "page": "5-follow-through.html",
+   "phase": "Follow-through",
+   "heading": "Most of the value is created after the room.",
+   "anchor": "",
+   "text": "Most programs treat what happens after the room as courtesy. This cycle treats it as the deliverable: a close-out package inside a week, a ladder that books the next step before momentum cools, a sponsor cadence with dates, and a record anyone can query. Success is what the customer does next, not what they said on the way out."
+  },
+  {
+   "page": "5-follow-through.html",
+   "phase": "Follow-through",
+   "heading": "Days 1–5: the close-out package",
+   "anchor": "",
+   "text": "Instrument Mechanic Clock Thank-yous, same day Every attendee and every internal contributor gets a specific, human thank-you before anything else goes out. Small, and the fastest trust signal the program sends. T+0–1 Dual feedback Two surveys: the customer scores the experience and their intent; the account team scores sales utility. Divergence between the two is itself a diagnostic: a briefing the customer loved and the account team found useless is a failure with good ratings. T+1–3 Internal debrief call Account team + briefing team, against a written checklist: what was committed, what surprised, what the customer's questions revealed about their stage. Always a live call. T+2 Post-briefing action plan The commitments table from the room, expanded: every row an owner, a date, and a definition of done, written in customer-benefit language. T+5 Sponsor introduction A named executive sponsor attached to the account, introduced in the action-plan note, with the first check-in already dated. T+5"
+  },
+  {
+   "page": "5-follow-through.html",
+   "phase": "Follow-through",
+   "heading": "The ladder: every outcome has a next rung booked",
+   "anchor": "",
+   "text": "What the briefing produced The follow-up that converts it Named candidate use-cases Pilot-scoping workshop booked in the room; charter drafted within days: scope contained, sponsor named, data availability confirmed A pilot worth running Graduation criteria written on day one, the published playbook's own discipline: clear criteria \"determine when pilots are ready for broader deployment\" and prevent projects from stalling in pilot phase 18 A pilot that graduates Expansion review with the sponsor. Practitioners describe the pattern: value shown in one corner of the business tends to spread fast once it's proven 19 Executive relationships A standing sponsor cadence (below), each check-in briefable in three bullets Trust positioning The follow-up packet carries governance artifacts alongside the product collateral: evaluation process, data-handling terms, incident-response posture Pipeline attribution The opportunity is linked to the briefing at intake, so influence enters the record structurally, the moment the opportunity exists 20"
+  },
+  {
+   "page": "5-follow-through.html",
+   "phase": "Follow-through",
+   "heading": "The 30/60/90: this cycle's design",
+   "anchor": "",
+   "text": "The cadence below is this cycle's own instrument, grounded in published enterprise practice (tiered executive reviews; new strategic accounts checked biweekly before relaxing to monthly). Day What happens Done when 30 Sponsor check-in #1. Three bullets: pilot charter status, first blocker, next date Charter signed; success + graduation criteria in writing 60 Sponsor check-in #2: pilot mid-flight; enablement running; champions identified on the customer's side Usage telemetry reviewed against the charter; anecdotes don't count 90 Executive review: pilot vs. graduation criteria; expansion decision; delayed-impact survey closes the measurement loop A go/no-go recorded, with reasons, in the record below"
+  },
+  {
+   "page": "5-follow-through.html",
+   "phase": "Follow-through",
+   "heading": "Measurement: an instrumented scoreboard of influenced pipeline",
+   "anchor": "measurement",
+   "text": "The number this program answers for is program-influenced pipeline and expansion, the finance-grade frame practitioners at mature programs describe: measuring briefing effectiveness \"on deal acceleration, and influencing open pipeline\" ⚠️ single-source, a ServiceNow finance leader's own description. 20 The instrumentation is structural: link the opportunity at intake, review influence quarterly, survey twice (immediately, and delayed at 90 days when intent has become behavior). The honesty rule, applied to our own industry's favorite numbers: ServiceNow's briefing program is often credited with $855M in influenced revenue, a figure that traces to one employee's LinkedIn profile and no published source. Industry survey stats (71% of attendees deciding to purchase, deal values up an average 31%) circulate through vendor whitepapers with inconsistent numbers between relays. 21 We cite them as what they are, folklore with a direction but no audit trail, and instrument this program so its number is defensible: attribution recorded at intake, reviewed against the CRM, reported with its assumptions attached. A scoreboard you could bet on. This is true if: opportunities are linked at intake with discipline (the single failure point of every attribution system), and the delayed survey actually runs. Both are written into the action plan as owned steps with names attached."
+  },
+  {
+   "page": "5-follow-through.html",
+   "phase": "Follow-through",
+   "heading": "The last beat: the record",
+   "anchor": "",
+   "text": "Within a day of the briefing (about thirty minutes of work), everything the cycle produced is centralized into one structured, queryable place: the request, the qualification decision, the discovery synthesis with its confidence levels, the agenda and its from→to lines, the document that traveled, every commitment with its owner and date, both surveys, and the 30/60/90 as it unfolds. Structured so that a coworker, or an AI agent, can find what they need without asking anyone. Anthropic's own briefing lead has described exactly this practice after his briefings: \"Maybe thirty minutes each time.\" 22 The lineage here is longer than it looks: Salesforce ran its briefing program on shared, reusable documents as far back as 2019 ⚠️ single-source, Salesforce's own post 23. The queryable record completes what that started, with one difference none of the predecessors had: an AI layer that can actually answer questions from it. You have already seen this cycle's record. It is the page you entered through: the front door of this site is the post-engagement record of the cycle you just walked, holding every artifact, every commitment, and the ledger of what each phase cost. The survey score closes the measurement loop. The cycle ends with its own memory, organized for the next person who needs it. Under the hood: how this phase was actually produced No public source describes how Anthropic's own briefing program runs its follow-through: the program is months old. This phase is therefore a proposal, assembled from the strongest published practice across the industry's mature programs (each element cited to its own source), and its instruments (the dual surveys, the debrief checklist, the action-plan format, the 30/60/90) were authored fresh for this cycle: the industry's own versions sit behind association paywalls, which is itself a finding. Claude drafted each instrument from the cited practices; the human decided what a one-person program can actually keep: every instrument here survives contact with a team of one."
+  },
+  {
+   "page": "5-follow-through.html",
+   "phase": "Follow-through",
+   "heading": "Phase clocks",
+   "anchor": "",
+   "text": "Dual surveys out T+1 Debrief call held T+2 Action plan + sponsor introduction delivered T+5 The record centralized and queryable T+1 (≈30 minutes of work) Sponsor cadence Day 30 · 60 · 90 Return to the record →"
+  },
+  {
+   "page": "sources.html",
+   "phase": "Sources",
+   "heading": "Sources",
+   "anchor": "",
+   "text": "Every factual claim in this cycle traces to the public record below. Claims resting on a single source are flagged where they appear, on the page itself. Corrections made during verification were applied directly in the text. Target FY2025 Form 10-K (fiscal year ended Jan 31, 2026; filed Mar 11, 2026): SEC EDGAR. Baseline financials, the >97% stores-as-hubs figure, import exposure, facility counts. Target 2026 Financial Community Meeting transcript (Mar 3, 2026): Target IR (PDF). CEO priorities and technology-investment quotes; CFO $1B reinvestment \"including AI\"; tariff-cost sizing. The $1B-including-AI substance independently reported by CIO Dive. Target Q1 2026 earnings (May 20, 2026): release · call transcript (Target IR PDF) · quotes verified against the independent Motley Fool transcript · market reaction per CNBC. Michael Fiddelke's day-one CEO message (Feb 2, 2026): corporate.target.com. The four priorities. \"A single good quarter has never been our goal\": Retail Dive, corroborated by WWD. The 2022 inventory episode: Q1 2022 results ($15.1B inventory, +43% YoY) · June 7, 2022 mid-quarter reset · Q2 2022 SEC 8-K exhibit (operating income −87%). Import & tariff exposure: 10-K Item 1 (importer of record; ~half of merchandise sourced internationally) · China glide path per Reuters · ~$0.5B one-time tariff/inventory costs per the FCM transcript. Stores-as-hubs & fulfillment network: Target's Sept 2025 update (Chicago test; next-day expansion) · sortation-center fact sheet · 11-of-15 count independently per Supply Chain Dive. \"Stalled\" is this cycle's inference, flagged where made. The bear case specifics: TheStreet's account of the Goldman Sachs note (⚠️ single-source for purchase-intent detail) · Goldman $112 Neutral per MarketScreener. Target Canada: Joe Castaldo, \"The Last Days of Target,\" Canadian Business (~30 ex-employee interviews; the ~30%-accurate master-data finding is single-source to this account and flagged wherever used). The Enterprise Acceleration Office & org rebuild: Q1 2025 call transcript (EAO announcement, \"removing friction\") · CEO appointment release · corporate cuts per CNBC · field-role changes per Supply Chain Dive · strategy-team reorg per Bloomberg. Walmart's AI deployment: agents announcement via Retail Dive and Digital Commerce 360 (at announcement, one of the four agents was fully live; the rest staged) · OpenAI partnership · Google partnership · Q4 FY26 and Q1 FY27 earnings · CEO succession framed on AI per the SEC-filed announcement (\"uniquely capable of leading the company through this next AI-driven transformation\"). Amazon's agentic retail: Q1 2026 results · Rufus full-year figures (300M+ customers, ~$12B annualized incremental during 2025) per Amazon's own reporting · robotics/DeepFleet per About Amazon. Anthropic Economic Index: January 2026 report (back-office task growth; the productivity estimate with its reliability haircut) · June 2026 report (93% artifact rate; autonomy by surface). Cited at task/occupation level only; industry application is this cycle's synthesis. The retail proof ladder: Anthropic's Enterprise AI Transformation Guide for Retail (PDF) (Shopify; the \"unglamorous back-office\" line) · L'Oréal customer page (99% figure per the customer page) · Lotte Homeshopping corroborated by Sendbird and AWS. The 2013 breach and settlement: vendor-credential vector per Krebs on Security · $18.5M settlement with 47 states + D.C. per the New York AG · CEO departure per NPR. Anthropic enterprise terms & positioning: Claude Enterprise page (no model training by default; certifications; production outcomes) · \"unconflicted\" positioning per CNBC, Feb 2026 · expansion proof: the Deloitte deployment (470,000+ employees) per CNBC and Anthropic. Anthropic's published enterprise playbook: the enterprise guide (PDF): pilot-selection filter, graduation criteria, the phased roadmap · adoption program (Activation → Acceleration → Expansion) per Anthropic Academy. The guide is undated (Claude 3.5-era citations) and is cited strictly as the published playbook. \"They roll it out like wildfire\": Paul Smith, spoken as ServiceNow's Chief Commercial Officer, Authority Magazine interview by Cynthia Corsetti (Jul 2024) · the interviewer's republication. Pipeline-influence measurement practice: a ServiceNow Sales Finance leader describing briefing measurement \"on deal acceleration, and influencing open pipeline\" · LinkedIn profile (⚠️ single-source, flagged where used). The folklore stats: industry survey figures circulate through vendor relays with inconsistent numbers between them (e.g., Mechdyne's relay vs. Salesmotion's); the $855M ServiceNow figure traces to one employee's LinkedIn profile and no published source. Cited only as folklore, by design. The queryable-record practice: Tim Bowman, \"Why Your Job Just Changed and Nobody Told You\" (Apr 2026) · LinkedIn. The \"maybe thirty minutes each time\" wording is his. The 2019 lineage: Salesforce's briefing program running on shared, reusable documents · Quip blog, 2019 (⚠️ single-source, Salesforce's own post). Craft sources (consulting & adoption practice): the discovery questions, pilot discipline, and adoption levers adapt published frameworks: Richard Rumelt, Good Strategy Bad Strategy (naming the challenge; create-destroy) · Ethan Rasiel, The McKinsey Way (key drivers) · Peter Block, Flawless Consulting (wants/offers; doubts; positive deviance) · David Maister et al., The Trusted Advisor (envisioning) · Ethan Mollick, Co-Intelligence (hidden AI use; disclosure incentives) · Iansiti & Lakhani, Competing in the Age of AI (operating model vs. portfolio-of-pilots) · Bent Flyvbjerg & Dan Gardner, How Big Things Get Done (think slow act fast; modularity) · Geoffrey Moore, Crossing the Chasm (self-referencing niche; adjacency) · Philip Tetlock & Dan Gardner, Superforecasting (numeric confidence discipline). The share-takers without an AI story: Costco Q3 FY26 results (comps +9.8%) per Costco IR · TJX Q1 FY27 (comps +6%, HomeGoods +9%) per the company's reporting · Target's 2021–2024 share loss (−0.18 pts while Walmart/Costco/Amazon gained) per GlobalData via CNBC (⚠️ single-source for the share arithmetic). Verification method: headline claims were adversarially checked against independent second sources before publication; nine were corrected during that pass and three that could not be independently confirmed are flagged ⚠️ where they stand. Numbers current as of mid-July 2026. Return to the record →"
+  }
+ ]
+}
