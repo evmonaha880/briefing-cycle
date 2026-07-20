@@ -97,7 +97,7 @@
    "phase": "Discovery",
    "heading": "Learn their reality before selling a vision",
    "anchor": "",
-   "text": "Discovery runs in both directions: the host learns the customer's current state; the customer learns what an honest partner looks like. Current reality first, future vision only after. Duration: 11 days, form to synthesis."
+   "text": "Discovery runs in both directions: the host learns the customer's current state; the customer learns what an honest partner looks like. Current reality first, future vision only after. Duration: 12 days, form to synthesis."
   },
   {
    "page": "2-discovery.html",
@@ -167,7 +167,7 @@
    "phase": "Discovery",
    "heading": "Phase clocks",
    "anchor": "",
-   "text": "Research form returnedT−14 days Synthesis one-pager issued to briefing teamT−12 Attendee from→to map confirmed with account teamT−10 Next: Phase 3 · Agenda design → Built and written by Evan Monahan · A Darkroom Developments build Every claim cited Portfolio · LinkedIn"
+   "text": "Research form issuedT−24 days Research form returnedT−14 Synthesis one-pager issued to briefing teamT−12 Attendee from→to map confirmed with account teamT−10 Next: Phase 3 · Agenda design → Built and written by Evan Monahan · A Darkroom Developments build Every claim cited Portfolio · LinkedIn"
   },
   {
    "page": "3-agenda.html",
@@ -342,7 +342,7 @@
    "phase": "Follow-through",
    "heading": "The last beat: the record",
    "anchor": "",
-   "text": "Within a day of the briefing (about thirty minutes of work), everything the cycle produced is centralized into one structured, queryable place: the request, the qualification decision, the discovery synthesis with its confidence levels, the agenda and its from→to lines, the document that traveled, every commitment with its owner and date, both surveys, and the 30/60/90 as it unfolds. Structured so that a coworker, or an AI agent, can find what they need without asking anyone. Anthropic's own briefing lead has described exactly this practice after his briefings: \"Maybe thirty minutes each time\" ⚠️ single-source, his own public post.22 The lineage here is longer than it looks: Salesforce ran its briefing program on shared, reusable documents as far back as 2019 ⚠️ single-source, Salesforce's own post23. The queryable record completes what that started, with one difference none of the predecessors had: a search layer that surfaces the matching line and links to its section. You have already seen this cycle's record. It is the page you entered through: the front door of this site is the post-engagement record of the cycle you just walked, holding every artifact, every commitment, and the ledger of what each phase cost. The survey score closes the measurement loop. The cycle ends with its own memory, organized for the next person who needs it."
+   "text": "Within a day of the briefing (about thirty minutes of work22), everything the cycle produced is centralized into one structured, queryable place: the request, the qualification decision, the discovery synthesis with its confidence levels, the agenda and its from→to lines, the document that traveled, every commitment with its owner and date, both surveys, and the 30/60/90 as it unfolds. Structured so that a coworker, or an AI agent, can find what they need without asking anyone. The lineage here is longer than it looks: Salesforce ran its briefing program on shared, reusable documents as far back as 2019 ⚠️ single-source, Salesforce's own post23. The queryable record completes what that started, with one difference none of the predecessors had: a search layer that surfaces the matching line and links to its section. You have already seen this cycle's record. It is the page you entered through: the front door of this site is the post-engagement record of the cycle you just walked, holding every artifact, every commitment, and the ledger of what each phase cost. The survey score closes the measurement loop. The cycle ends with its own memory, organized for the next person who needs it."
   },
   {
    "page": "5-follow-through.html",
